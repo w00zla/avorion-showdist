@@ -1,6 +1,6 @@
-# /showdist
+# showdist
 
-## DESCRIPTION:
+### DESCRIPTION:
 This mod delivers you two commands which can be used to display the distance of the player to certain locations, measured in sectors.
 Those locations can either be the center/core of the galaxy, the home sector of the player or a user-defined sector.
 This may be usefull for different things like finding bosses or planning some trading- and jump-routes ;)
