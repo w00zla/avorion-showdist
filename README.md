@@ -62,21 +62,3 @@ No vanilla script files will be overwritten, so there should be no problem with 
 
 __*Multiplayer:*__ This mod is **server-side only**, so no files have to be installed on clients for multiplayer games.
 
-
-### Changelog:
-
-**v0.4**
-
-- added possibility to show/register distance to any existing player's home-sector
-- fixed problem with negative and reversed coordinates
-- the `/showdistjump` command now remembers registered locations over saves and loads (you must use the `/showdistjump off` command now to get rid of the notifications!) 
-
-**v0.3**
-
-- added possibilty to also define a name for user-defined sectors
-- improved output of `/help showdist` and `/help showdistjump` commands
-- minor changes and code comments
-
-**v0.2**
-
-- added possibility to register multiple user-defined sectors with `/showdistjump` command
