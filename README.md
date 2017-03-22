@@ -53,3 +53,30 @@ __*Parameters:*__
 `<XXX:YYY>` = coordinates value *(like "321:456" or "12:-34")*
 
 `<NAME>` = name value *(like "Trade1" or "SomeSector", no spaces)*
+
+
+## INSTALLATION:
+Download the ZIP file of the [latest release](https://github.com/w00zla/avorion-showdist/releases) and extract it to `<Avorion>\data\` directory, like with other mods.
+
+No vanilla script files will be overwritten, so there should be no problem with other mods or file changes due to game updates!
+
+__*Multiplayer:*__ This mod is **server-side only**, so no files have to be installed on clients for multiplayer games.
+
+
+### Changelog:
+
+**v0.4**
+
+- added possibility to show/register distance to any existing player's home-sector
+- fixed problem with negative and reversed coordinates
+- the `/showdistjump` command now remembers registered locations over saves and loads (you must use the `/showdistjump off` command now to get rid of the notifications!) 
+
+**v0.3**
+
+- added possibilty to also define a name for user-defined sectors
+- improved output of `/help showdist` and `/help showdistjump` commands
+- minor changes and code comments
+
+**v0.2**
+
+- added possibility to register multiple user-defined sectors with `/showdistjump` command
